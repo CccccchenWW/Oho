@@ -1,0 +1,39 @@
+# 普通数据的配置
+name: zhangsan
+
+# 对象的配置
+person:
+  name: zhangsan
+  age: 18
+  addr: nanjing
+
+# 行内对象配置  效果和上面的缩进一致
+people: {name: zhangsan, age: 18, addr: nanjing}
+
+server:
+  port: 8082
+
+# 配置数据、集合 (普通字符串)
+city:
+  - nanjing
+  - beijing
+  - shanghai
+
+citys: [nanjing, beijing, shanghai]
+
+# 配置数据、集合 (对象数据)
+student:
+  - name: tom
+    age: 18
+    addr: nanjing
+  - name: lucy
+    age: 19
+    addr: shanghai
+
+students: [{name: to, age: 18, addr: nanjing},{name: lucy, age: 19, addr: shanghai}]
+
+# Map配置
+map:
+  key1: value1
+  key2: value2
+
